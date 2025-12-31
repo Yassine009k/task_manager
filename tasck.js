@@ -4,6 +4,11 @@ function addTask(task) {
     console.log("task add :",task);
     console.log("logging task..");
     
+    if(!task){
+        console.log("EMPTY task");
+        return;
+        
+    }
     
 }
 module.exports={tasks,addTask} 
